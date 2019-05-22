@@ -1,0 +1,48 @@
+header{
+    position: relative;
+    z-index: 1000000;
+}
+
+.navbar{
+    background: transparent;
+}
+
+.banner{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(images/city-landing.jpg);
+    background-size: cover; 
+}
+
+.banner:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(#000, transparent);
+    pointer-events: none;
+}
+
+.height100p{
+    height: 100vh;
+}
+
+.height{
+    height: 100%;
+}
+
+.contentBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projectBox{
+    padding: 20px;
+}
