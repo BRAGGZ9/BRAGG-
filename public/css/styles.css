@@ -2,8 +2,25 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-    /* font-family: 'Abril Fatface'; */
+.navbar-brand{
+    font-family: 'Abril Fatface';
+    font-size: 25px;
+    color: white !important;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #000 !important;
+}
+
+.active .nav-link{
+    background-color: white;
+    color: #000 !important;
 }
 
 #caption{
@@ -56,6 +73,22 @@ header{
     color: white;
 }
 
+.section-about{
+    margin-top: 8%;
+}
+
+.section-projects{
+    margin-top: 8%;
+}
+
+.section-skills{
+    margin-top: 8%;
+}
+
+.section-contact{
+    margin-top: 8%;
+}
+
 #about-me-box{
     padding: 35px;
 }
@@ -67,4 +100,13 @@ header{
 
 .projectBox{
     padding: 30px;
+}
+
+.skills-box{
+    padding: 25px;
+
+}
+
+ul.style-ul{
+    list-style-type: square;
 }
