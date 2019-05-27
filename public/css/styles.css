@@ -126,6 +126,20 @@ ul.style-ul{
     list-style-type: square;
 }
 
+.contactHeader{
+    margin-top: 20%;
+    color: white;
+}
+
+.contact-me-box{
+    margin-top: 15%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+}
+
 @media screen and (max-width: 1024px){
     #about-me-box{
         padding: 10px;
