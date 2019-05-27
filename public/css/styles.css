@@ -1,3 +1,7 @@
+body{
+    background: #F2F2F2;
+}
+
 p{
     font-family: 'Open Sans', sans-serif;
 }
@@ -75,19 +79,22 @@ header{
 }
 
 .section-about{
-    margin-top: 8%;
+    background: white;
 }
 
 .section-projects{
-    margin-top: 8%;
+    margin-top: 2%;
+    background: white;
 }
 
 .section-skills{
-    margin-top: 8%;
+    margin-top: 2%;
+    background-image: radial-gradient(circle, #4ba2bd, #398aa8, #287392, #155c7d, #004767);
+    color: white;
 }
 
 .section-contact{
-    margin-top: 8%;
+    margin-top: 2%;
     position: relative;
     background: url(../../images/contact-background\ \(2\).jpg);
     width: 100%;
@@ -119,7 +126,13 @@ header{
 }
 
 .skills-box{
+    margin-top: 5%;
+    margin-bottom: 25%;
     padding: 20px;
+}
+
+.skills-height{
+    margin-top: 4%;
 }
 
 ul.style-ul{
@@ -138,6 +151,22 @@ ul.style-ul{
     font-weight: bold;
     color: white;
     background: rgba(0, 0, 0, 0.4);
+}
+
+footer{
+    background: #3B3C36;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: white;
 }
 
 @media screen and (max-width: 1024px){
