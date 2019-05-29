@@ -153,6 +153,15 @@ ul.style-ul{
     background: rgba(0, 0, 0, 0.4);
 }
 
+.home-nav{
+    margin-top: 10%;
+}
+
+.button-up{
+    border-radius: 50px;
+    padding: 14px;
+}
+
 footer{
     background: #3B3C36;
 }
@@ -215,6 +224,15 @@ footer a:hover{
     .skills-box{
         padding: 0px;
     }
+
+    .contact-me-box{
+        margin-top: 7%;
+    }
+
+    .button-up{
+        border-radius: 50px;
+        padding: 14px;
+    }
 }
 
 @media screen and (max-width: 320px){
@@ -236,5 +254,9 @@ footer a:hover{
 
     .skills-box{
         padding: 10px;
+    }
+
+    .contact-me-box{
+        margin-top: 17%;
     }
 }
