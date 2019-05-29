@@ -7,19 +7,22 @@ p{
 }
 
 .navbar-brand{
-    font-family: 'Abril Fatface';
-    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
     color: white !important;
+    margin-top: 2px;
 }
 
 .nav-link{
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     color: white !important;
 }
 
 .nav-link:hover{
+    background-color: white;
     color: #000 !important;
+    transition: 0.5s;
 }
 
 .active .nav-link{
@@ -29,6 +32,9 @@ p{
 
 #caption{
     font-family: 'Bad Script', cursive;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 1%;
 }
 
 header{
@@ -37,7 +43,16 @@ header{
 }
 
 .navbar{
-    background: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 60px;
+}
+
+#button-toggler{
+    background: #F2F2F2;
+    margin-top: -12px;
+    width: 55px;
 }
 
 .banner{
@@ -76,6 +91,7 @@ header{
     align-items: center;
     text-align: center;
     color: white;
+    margin-top: 52px; 
 }
 
 .section-about{
@@ -209,6 +225,10 @@ footer a:hover{
         padding: 10px;
     }
 
+    #about-me-box img{
+        height: 345px;
+    }
+
     .section-projects .card{
         width: 13rem;
     }
@@ -238,6 +258,11 @@ footer a:hover{
 @media screen and (max-width: 320px){
     #about-me-box{
         padding: 20px;
+    }
+
+    #about-me-box img{
+        height: 345px;
+        width: 100%;
     }
 
     .projectBox{
