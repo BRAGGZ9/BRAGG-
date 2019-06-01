@@ -250,6 +250,7 @@ footer a:hover{
 
     #about-me-box img{
         height: 345px;
+        margin-top: 15px;
     }
 
     .section-projects .card{
@@ -278,7 +279,131 @@ footer a:hover{
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 600px) and (max-width: 767px){
+    #about-me-box img{
+        height: 190px;
+        width: 30%;
+        margin-top: 50px;
+    }
+
+    .section-projects .card{
+        width: 10rem;
+    }
+
+    .projectBox{
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 599px){
+    #about-me-box{
+        padding: 55px;
+    }
+
+    #about-me-box img{
+        height: 370px;
+        width: 100%;
+    }
+
+    .projectBox{
+        padding: 53px;
+    }
+
+    .section-projects .card{
+        width: 18rem;
+    }
+
+    .skills-box{
+        padding: 55px;
+    }
+
+    .contactHeader{
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 424px){
+    #about-me-box{
+        padding: 50px;
+    }
+
+    #about-me-box img{
+        height: 370px;
+        width: 100%;
+    }
+
+    .projectBox{
+        padding: 53px;
+    }
+
+    .section-projects .card{
+        width: 18rem;
+    }
+
+    .skills-box{
+        padding: 55px;
+    }
+
+    .contactHeader{
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 410px){
+    #about-me-box{
+        padding: 35px;
+    }
+
+    #about-me-box img{
+        height: 345px;
+        width: 100%;
+    }
+    
+    .projectBox{
+        padding: 35px;
+    }
+
+    .section-projects .card{
+        width: 17rem;
+    }
+
+    .skills-box{
+        padding: 35px;
+    }
+
+    .contactHeader{
+        margin-top: 38%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px){
+    #about-me-box{
+        padding: 35px;
+    }
+
+    #about-me-box img{
+        height: 345px;
+        width: 100%;
+    }
+
+    .projectBox{
+        padding: 35px;
+    }
+
+    .section-projects .card{
+        width: 16rem;
+    }
+
+    .skills-box{
+        padding: 35px;
+    }
+
+    .contactHeader{
+        margin-top: 38%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px){
     .navbar-brand{
         margin-top: -5px;
     }
