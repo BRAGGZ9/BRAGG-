@@ -104,11 +104,7 @@ header{
 }
 
 .card-img-top{
-    height: 380px;
-}
-
-.card-text{
-    height: 520px;
+    height: 300px;
 }
 
 .section-skills{
@@ -131,20 +127,20 @@ header{
     padding: 20px;
 }
 
-.responsive-img img{
-    height: auto;
-    width: 100%;
+.image-box-project{
+    padding-top: 15px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px; 
 }
 
-.projectBox{
-    padding: 18px;
+.box-project{
+    margin-top: 45px;
+    margin-bottom: 30px;
 }
 
-.card{
-    width: 20rem;
-}
-
-.projectBox a{
+.box-project a{
     background: #000;
     color: white;
 }
@@ -211,16 +207,19 @@ footer a:hover{
         height: 290px;
     }
 
-    .section-projects .card{
-        width: 17rem;
+    .section-projects .image-box-project{
+        margin-top: 50px;
+        padding: 0px;
+    }
+    
+    .section-projects .box-project{
+        margin-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;     
     }
 
-    .projectBox{
-        padding: 8px;
-    }
-
-    .projectBox .card a{
-        margin-bottom: 5px;
+    .section-projects .box-project p{
+        text-align: justify;
     }
 
     .skills-box{
@@ -261,16 +260,19 @@ footer a:hover{
         margin-top: 15px;
     }
 
-    .section-projects .card{
-        width: 14rem;
-    }
-
-    .projectBox{
+    .section-projects .image-box-project{
+        margin-top: 90px;
         padding: 0px;
     }
+    
+    .section-projects .box-project{
+        margin-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;     
+    }
 
-    .projectBox .card a{
-        margin-bottom: 5px;
+    .section-projects .box-project p{
+        text-align: justify;
     }
 
     .skills-box{
@@ -294,12 +296,23 @@ footer a:hover{
         margin-top: 50px;
     }
 
-    .section-projects .card{
-        width: 10rem;
+    .section-projects .image-box-project{
+        padding-left: 100px;
+        padding-right: 100px; 
+    }
+    
+    .section-projects .box-project{
+        padding-left: 110px;
+        padding-right: 110px;
+        margin-top: 0px;
     }
 
-    .projectBox{
-        padding: 0px;
+    .section-projects .box-project p{
+        text-align: justify;
+    }
+
+    .skills-box{
+        padding: 55px;
     }
 }
 
@@ -313,12 +326,20 @@ footer a:hover{
         width: 100%;
     }
 
-    .projectBox{
-        padding: 53px;
+    .section-projects .image-box-project{
+        margin-top: 30px;
+        padding-left: 55px;
+        padding-right: 55px; 
+    }
+    
+    .section-projects .box-project{
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-top: 0px;
     }
 
-    .section-projects .card{
-        width: 18rem;
+    .section-projects .box-project p{
+        text-align: justify;
     }
 
     .skills-box{
@@ -340,12 +361,20 @@ footer a:hover{
         width: 100%;
     }
 
-    .projectBox{
-        padding: 53px;
+    .section-projects .image-box-project{
+        margin-top: 30px;
+        padding-left: 45px;
+        padding-right: 45px; 
+    }
+    
+    .section-projects .box-project{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 0px;
     }
 
-    .section-projects .card{
-        width: 18rem;
+    .section-projects .box-project p{
+        text-align: justify;
     }
 
     .skills-box{
@@ -367,12 +396,20 @@ footer a:hover{
         width: 100%;
     }
     
-    .projectBox{
-        padding: 35px;
+    .section-projects .image-box-project{
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px; 
+    }
+    
+    .section-projects .box-project{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 0px;
     }
 
-    .section-projects .card{
-        width: 17rem;
+    .section-projects .box-project p{
+        text-align: justify;
     }
 
     .skills-box{
@@ -394,12 +431,20 @@ footer a:hover{
         width: 100%;
     }
 
-    .projectBox{
-        padding: 35px;
+    .section-projects .image-box-project{
+        margin-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    
+    .section-projects .box-project{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 0px;
     }
 
-    .section-projects .card{
-        width: 16rem;
+    .section-projects .box-project p{
+        text-align: justify;
     }
 
     .skills-box{
@@ -438,16 +483,20 @@ footer a:hover{
         width: 100%;
     }
 
-    .projectBox{
-        padding: 20px;
+    .section-projects .image-box-project{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 30px; 
+    }
+    
+    .section-projects .box-project{
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 0px;
     }
 
-    .section-projects .card{
-        width: 16rem;
-    }
-
-    .projectBox .card a{
-        margin-bottom: 5px;
+    .section-projects .box-project p{
+        text-align: justify;
     }
 
     .skills-box{
