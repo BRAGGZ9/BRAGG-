@@ -103,6 +103,14 @@ header{
     background: white;
 }
 
+.card-img-top{
+    height: 380px;
+}
+
+.card-text{
+    height: 520px;
+}
+
 .section-skills{
     margin-top: 2%;
     background-image: radial-gradient(circle, #4ba2bd, #398aa8, #287392, #155c7d, #004767);
@@ -254,7 +262,7 @@ footer a:hover{
     }
 
     .section-projects .card{
-        width: 13rem;
+        width: 14rem;
     }
 
     .projectBox{
